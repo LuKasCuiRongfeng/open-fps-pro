@@ -1,0 +1,12 @@
+{
+  "rocky": {
+    "ao": "assets/textures/rocky_ao.jpg",
+    "diffuse": "assets/textures/rocky_diffuse.jpg",
+    "displacement": "assets/textures/rocky_displacement.png"
+  },
+  "snow": {
+    "ao": "assets/textures/snow_ao.jpg",
+    "diffuse": "assets/textures/snow_diffuse.jpg",
+    "displacement": "assets/textures/snow_displacement.png"
+  }
+}

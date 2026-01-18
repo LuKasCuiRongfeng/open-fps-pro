@@ -1,0 +1,40 @@
+{
+  "player": {
+    "mouseSensitivity": 1,
+    "moveSpeed": 40,
+    "sprintBonus": 31.9,
+    "jumpVelocity": 4.6,
+    "gravity": 9.8,
+    "maxFallSpeed": 55,
+    "thirdPerson": {
+      "chase": {
+        "followDistance": 3,
+        "heightOffset": 1.2
+      },
+      "overShoulder": {
+        "followDistance": 2.6,
+        "heightOffset": 1.35,
+        "shoulderOffset": 0.55
+      },
+      "followLerpPerSecond": 12
+    }
+  },
+  "camera": {
+    "fovDegrees": 75
+  },
+  "render": {
+    "maxPixelRatio": 2,
+    "renderScale": 1
+  },
+  "fog": {
+    "density": 0.00015
+  },
+  "editor": {
+    "mouseConfig": {
+      "leftButton": "brush",
+      "rightButton": "orbit",
+      "middleButton": "pan"
+    },
+    "stickyDrag": false
+  }
+}
