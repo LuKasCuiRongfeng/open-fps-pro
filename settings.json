@@ -1,7 +1,7 @@
 {
   "player": {
     "mouseSensitivity": 1,
-    "moveSpeed": 40,
+    "moveSpeed": 19,
     "sprintBonus": 31.9,
     "jumpVelocity": 4.6,
     "gravity": 9.8,
@@ -26,8 +26,24 @@
     "maxPixelRatio": 2,
     "renderScale": 1
   },
-  "fog": {
-    "density": 0.00015
+  "sky": {
+    "sunElevation": 18,
+    "sunAzimuth": 180,
+    "turbidity": 10,
+    "rayleigh": 2,
+    "mieCoefficient": 0.005,
+    "mieDirectionalG": 0.8,
+    "bloomEnabled": true,
+    "bloomThreshold": 0.85,
+    "bloomStrength": 2,
+    "bloomRadius": 0.3,
+    "ambientIntensity": 1.5,
+    "sunIntensity": 3,
+    "shadowsEnabled": true,
+    "normalSoftness": 0.4,
+    "fogDensity": 0.00015,
+    "lensflareEnabled": true,
+    "lensflareSize": 1
   },
   "editor": {
     "mouseConfig": {
@@ -36,5 +52,8 @@
       "middleButton": "pan"
     },
     "stickyDrag": false
+  },
+  "fog": {
+    "density": 0.00015
   }
 }
