@@ -1,8 +1,8 @@
 {
   "player": {
     "mouseSensitivity": 1,
-    "moveSpeed": 19,
-    "sprintBonus": 31.9,
+    "moveSpeed": 8.1,
+    "sprintBonus": 33.2,
     "jumpVelocity": 4.6,
     "gravity": 9.8,
     "maxFallSpeed": 55,
@@ -27,7 +27,7 @@
     "renderScale": 1
   },
   "sky": {
-    "sunElevation": 18,
+    "sunElevation": 21,
     "sunAzimuth": 180,
     "turbidity": 10,
     "rayleigh": 2,
