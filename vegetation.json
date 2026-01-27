@@ -1,0 +1,26 @@
+{
+    "fern": {
+        "model": "assets/models/fern/fern.glb",
+        "densityChannel": 0,
+        "maxDensity": 50,
+        "scale": { "min": 0.8, "max": 1.2 },
+        "rotation": { "randomY": true },
+        "slopeLimit": 45,
+        "lodDistances": [30],
+        "fadeOutDistance": 60,
+        "type": "grass"
+    },
+
+    "quiver": {
+        "model": "assets/models/quiver/quiver.glb",
+        "densityChannel": 2,
+        "maxDensity": 0.1,
+        "scale": { "min": 0.8, "max": 1.5 },
+        "rotation": { "randomY": true },
+        "slopeLimit": 30,
+        "lodDistances": [80, 200],
+        "fadeOutDistance": 500,
+        "collision": true,
+        "type": "tree"
+    }
+}
