@@ -1,11 +1,17 @@
 {
   "player": {
-    "mouseSensitivity": 1,
     "moveSpeed": 8.1,
     "sprintBonus": 33.2,
     "jumpVelocity": 4.6,
     "gravity": 9.8,
     "maxFallSpeed": 55,
+    "mouseSensitivity": 1,
+    "chaseFollowDistance": 3,
+    "chaseHeightOffset": 1.2,
+    "overShoulderFollowDistance": 2.6,
+    "overShoulderHeightOffset": 1.35,
+    "overShoulderOffset": 0.55,
+    "followLerpPerSecond": 12,
     "thirdPerson": {
       "chase": {
         "followDistance": 3,
@@ -20,50 +26,56 @@
     }
   },
   "camera": {
-    "fovDegrees": 75
+    "fovDegrees": 75,
+    "mode": "firstPerson",
+    "thirdPersonStyle": "overShoulder"
   },
   "render": {
     "maxPixelRatio": 2,
     "renderScale": 1
   },
   "sky": {
-    "sunElevation": 11.278230221233558,
-    "sunAzimuth": 343.9436417687937,
-    "turbidity": 10,
-    "rayleigh": 2,
-    "mieCoefficient": 0.005,
-    "mieDirectionalG": 0.8,
+    "sunElevation": 44.97290338706258,
+    "sunAzimuth": 271.7623910236605,
+    "sunSize": 15,
+    "ambientIntensity": 0.5996989265229176,
+    "sunIntensity": 1.1992774236550021,
+    "shadowsEnabled": true,
+    "normalSoftness": 0.4,
+    "fogDensity": 0.00015,
     "bloomEnabled": true,
     "bloomThreshold": 0.85,
     "bloomStrength": 2,
     "bloomRadius": 0.3,
-    "ambientIntensity": 0.22531366912481732,
-    "sunIntensity": 0.30075280589956155,
-    "shadowsEnabled": true,
-    "normalSoftness": 0.4,
-    "fogDensity": 0.00015,
     "lensflareEnabled": true,
-    "lensflareSize": 1,
-    "sunSize": 15,
     "godRaysEnabled": false,
     "godRaysWeight": 0.5,
     "godRaysDecay": 0.95,
     "godRaysExposure": 3,
     "starBrightness": 1.2,
+    "nightLightIntensity": 1,
+    "turbidity": 10,
+    "rayleigh": 2,
+    "mieCoefficient": 0.005,
+    "mieDirectionalG": 0.8,
+    "lensflareSize": 1,
     "milkyWayBrightness": 0.8
   },
   "editor": {
+    "leftButton": "brush",
+    "rightButton": "orbit",
+    "middleButton": "pan",
+    "stickyDrag": false,
     "mouseConfig": {
       "leftButton": "brush",
       "rightButton": "orbit",
       "middleButton": "pan"
-    },
-    "stickyDrag": false
+    }
   },
   "time": {
-    "timeOfDay": 16.929576117919584,
+    "timeOfDay": 12.11398760294277,
     "timeSpeed": 3600,
-    "timePaused": false,
+    "timePaused": true,
     "timeDrivenSun": true
   },
   "fog": {
